@@ -10,7 +10,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Building Restriction", "Wulf/lukespragg", "1.5.9")]
+    [Info("Building Restriction", "Wulf/lukespragg/PP", "1.5.9")]
     [Description("Restricts building height, building in water, number of foundations, and more")]
     public class BuildingRestriction : CovalencePlugin
     {
