@@ -208,7 +208,7 @@ namespace Oxide.Plugins
             if (buildingIds.ContainsKey(buildingId))
             {
                 List<BuildingBlock> connectingStructure = buildingIds[buildingBlock.buildingID];
-                if (config.RestrictFoundations && blockName == foundation || blockName == triFoundation)
+                if (config.RestrictFoundations && blockName == foundation || config.RestrictFoundations && blockName == triFoundation)
                 {
                     int foundationCount = GetCountOf(connectingStructure, foundation);
                     int triFoundationCount = GetCountOf(connectingStructure, triFoundation);
